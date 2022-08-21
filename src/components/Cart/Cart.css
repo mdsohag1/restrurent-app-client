@@ -1,0 +1,52 @@
+.form-aria-2 input{
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+.form-aria-2 .delovarBtn{
+    background-color: #ff1645;
+    color: #fff;
+    cursor: pointer;
+}
+.form-aria-2 .delovarBtn:hover{
+    background-color: #c51034;
+}
+.form-aria-2 .delovarBtn:disabled{
+  background-color: rgb(211, 213, 214);  
+  color: #000;
+}
+.delivary-info{
+    width: 600px;
+}
+.delivary-section{
+    margin: 100px 0;
+}
+.main-cart button{
+    background-color: #ff1645;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.main-cart button:hover{
+    background-color: #c51034;
+}
+.main-cart h5{
+    margin: 20px 0;
+}
+.sub-info{
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    align-items: center;
+}
+.sub-info img{
+    margin-right: 10px;
+}

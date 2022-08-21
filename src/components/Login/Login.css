@@ -1,0 +1,27 @@
+.form-aria{
+    width: 400px;
+    margin: 0 auto;
+}
+.form-aria img{
+    width: 100%;
+    padding: 50px;
+}
+.form-aria input{
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+.form-aria .signupBtn{
+    background-color: #ff1645;
+    color: #fff;
+}
+.form-aria .signupBtn:hover{
+    background-color: #c51034;
+}
+.form-aria span{
+    color: red;
+}

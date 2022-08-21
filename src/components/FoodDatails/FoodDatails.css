@@ -1,0 +1,125 @@
+.alldetails {
+   display: flex;
+}
+.Food-text {
+   width: 40%;
+   margin-top: 50px;
+   margin-right: 200px;
+}
+.Food-text h1 {
+   font-size: 60px;
+}
+.Food-text h2 {
+   font-size: 50px;
+   display: inline-block;
+   margin-top: 20px;
+}
+
+.Food-text p {
+   margin-top: 50px;
+}
+.food-image {
+   width: 50%;
+   /* margin-right: 50px; */
+   margin-top: 30px;
+}
+.food-image img {
+   width: 100%;
+}
+.btn-place {
+   display: inline-block;
+   align-items: center;
+   margin: 0 30px;
+   border: 1px solid lightgray;
+   padding: 5px 10px;
+   border-radius: 30px;
+}
+.addCard {
+   width: 100px;
+   border: none;
+   border-radius: 30px;
+   background-color: #f91944;
+   color: #fff;
+   height: 40px;
+   display: block;
+   margin-top: 30px;
+   font-weight: bold;
+}
+.addCard:hover {
+   background-color: #d8022d;
+}
+.sub-img {
+   display: flex;
+   width: 200px;
+   margin-top: 100px;
+}
+.sub-img img {
+   width: 100%;
+   margin-right: 30px;
+}
+.addCart-icon {
+   margin-right: 5px;
+}
+
+@media screen and (max-width: 480px) {
+   .alldetails {
+      flex-direction: column;
+   }
+   .Food-text {
+      width: 100%;
+      margin-top: 10px;
+      margin-right: 0;
+   }
+   .Food-text h1 {
+      font-size: 50px;
+   }
+   .Food-text h2 {
+      font-size: 30px;
+      margin-top: 20px;
+   }
+
+   .Food-text p {
+      margin-top: 30px;
+   }
+   .food-image {
+      width: 100%;
+      margin-top: 30px;
+   }
+   .food-image img {
+      width: 100%;
+   }
+   .btn-place {
+      display: inline-block;
+      align-items: center;
+      margin: 0 30px;
+      border: 1px solid lightgray;
+      padding: 5px 10px;
+      border-radius: 30px;
+   }
+   .addCard {
+      width: 100px;
+      border: none;
+      border-radius: 30px;
+      background-color: #f91944;
+      color: #fff;
+      height: 40px;
+      display: block;
+      margin-top: 30px;
+      font-weight: bold;
+   }
+   .addCard:hover {
+      background-color: #d8022d;
+   }
+   .sub-img {
+      display: flex;
+      width: 20%;
+      margin-top: 60px;
+   }
+   .sub-img img {
+      width: 100%;
+      margin-right: 30px;
+   }
+   .addCart-icon {
+      margin-right: 5px;
+   }
+}

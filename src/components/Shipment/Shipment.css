@@ -1,0 +1,56 @@
+.shipment{
+    margin-top: 100px;
+}
+.shipment .map{
+    width: 800px;
+}
+.shipment .map img{
+    width: 100%;
+    border-radius: 10px;
+}
+.contact{
+    background-color: rgb(242, 242, 242);
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.contact img{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.contact .location{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.contact .raider{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.contact .raider img{
+    width: 60px;
+}
+.contact .raider .name{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.contact .minute{
+    margin: 20px 10px;
+}
+
+.contact-btn{
+    background-color: #ff1645;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+}
+.contact-btn:hover{
+    background-color: #c51034;
+}

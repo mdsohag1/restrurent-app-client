@@ -1,0 +1,21 @@
+.card img {
+   width: 200px;
+   margin: 0 auto;
+   margin-top: 20px;
+   transition: all ease 0.3s;
+}
+.card {
+   border: none !important;
+   height: 400px;
+}
+.card:hover {
+   border: 1px solid lightgray;
+   border-radius: 5px;
+   box-shadow: 2px 2px 15px lightgray;
+}
+/* .card:hover img{
+    width: 210px;
+} */
+.card-body {
+   margin-top: 20px;
+}
